@@ -1,3 +1,7 @@
+/**
+ * numeral数字转化库
+ */
+
 const numeral = require('numeral');
 
 
