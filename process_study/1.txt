@@ -1,0 +1,1 @@
+捕获到异常：ReferenceError: noneFun is not defined
