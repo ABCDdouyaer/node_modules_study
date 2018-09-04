@@ -10,7 +10,7 @@ let fn_hello = async (ctx, next) => {
 
 let fn_main = async (ctx,next) => {
     
-    ctx.response.body = env.render(rootPath + path.sep + 'view/index.html',{name:'ww'})
+    ctx.render(rootPath + path.sep + 'view/index.html',{name:'ww'})
 }
 module.exports = {
     'GET /hello/:name': fn_hello,

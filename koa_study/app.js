@@ -6,12 +6,15 @@
 const Koa = require('koa');
 const app = new Koa();
 const bodyParser = require('koa-bodyparser');
-const staticFiles = require('./static_files.js');
 const controller = require('./middleware/controller.js');
 const koaStatic = require('koa-static');
+const path = require('path');
+const template =  require('./middleware/template.js');
 
 
-app.use(koaStatic(__dirname + '/static'));
+console.log(path.join(__dirname,'static'))
+app.use(koaStatic(path.join(__dirname,'static')));
+app.use(template())
 app.use(bodyParser());
 app.use(controller());
 
