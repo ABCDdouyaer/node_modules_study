@@ -24,12 +24,10 @@
 ######process.execArgv 属性返回当Node.js进程被启动时，Node.js特定的命令行选项。 这些选项在process.argv属性返回的数组中不会出现，并且这些选项中不会包括Node.js的可执行脚本名称或者任何在脚本名称后面出现的选项。 这些选项在创建子进程时是有用的，因为他们包含了与父进程一样的执行环境信息。
 ######process.execPath 属性，返回启动Node.js进程的可执行文件所在的绝对路径。
 ######process.exit()方法以结束状态码code指示Node.js同步终止进程。 如果code未提供，此exit方法要么使用'success' 状态码 0，要么使用process.exitCode属性值，前提是此属性已被设置。 Node.js在所有'exit'事件监听器都被调用了以后，才会终止进程。
-######当进程正常结\//
-/';[;[p=l]]束，或通过process.exit()结束但未传递参数时，此数值标识进程结束的状态码。
-######process.pid返回进程pidrr标识的进程。qe
-######process.version 当前node的版本号q3rq3rq3rq
-######process.installPrefix eqeqrq2rq2eq2eq2
+######当进程正常结束，或通过process.exit()结束但未传递参数时，此数值标识进程结束的状态码。
+######process.pid返回进程pid。
+######process.version 当前node的版本号
+######process.installPrefix
 ######process.mainModule属性提供了一种获取require.main的替代方式。 区别在于，若主模块在运行时中发生改变， require.main可能仍然指向变化之前所依赖的模块 一般来说，假定require.main和process.mainModule引用相同的模块是安全的。就像require.main一样，如果没有入口脚本，process.mainModule的值是undefined。
 ######process.memoryUsage()方法返回Node.js进程的内存使用情况的对象，该对象每个属性值的单位为字节。
 ######process.nextTick()方法将 callback 添加到"next tick 队列"。 一旦当前事件轮询队列的任务全部完成，在next tick队列中的所有callbacks会被依次调用。这种方式不是setTimeout(fn, 0)的别名。它更加有效率。事件轮询随后的ticks 调用，会在任何I/O事件（包括定时器）之前运行。
-##,.p[l-ok-o]l'rq2rq2rq2rq2rrq2rq2rq22rq2rqe2eq2eq2eqrq2rq2r
