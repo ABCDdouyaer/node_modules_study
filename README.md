@@ -9,3 +9,7 @@ version 0.0.4  学习process
 version 0.0.5  学习path
 
 version 0.0.6  学习nodemon
+
+version 0.0.7 学习react-json-schema-form  form表单
+
+version 0.0.8 mobx 状态管理器
