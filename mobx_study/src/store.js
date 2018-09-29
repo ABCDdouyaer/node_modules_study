@@ -1,14 +1,29 @@
-import {observable, action, computed, autorun} from 'mobx'; 
+import {observable, action, computed, autorun, extendObservable} from 'mobx'; 
 class Store{
-    @observable list = []
+    @observable a = 0
+
+    @observable b = {
+        name :'ww'
+    }
 
     @computed get total(){
-        return this.list.length;
+        return this.a + 1;
     }
 
     @action change(){
-        this.list.push(this.list.length);
+        this.a++;
+    }
+    @action add(){
+        this.b.age++
     }
 }
-
-export default store = new Store();
+let store = new Store();
+extendObservable(store, {
+    b: {
+        age:1
+    }
+})
+autorun(()=>{
+    console.log(store.a);
+})
+export default store;
