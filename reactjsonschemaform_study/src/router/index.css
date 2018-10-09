@@ -1,0 +1,14 @@
+.myul{
+    list-style: none;
+    display: flex;
+}
+.myul li{
+    width: 100px;
+    background: #ccc;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.myul li span{
+    display: block;
+}
