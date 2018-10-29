@@ -1,21 +1,27 @@
 
->🐝🐝🐝numeral   数字转换包
+>🐝🐝🐝numeral
 
 >🐝🐝🐝[文档地址:http://numeraljs.com/](http://numeraljs.com/)
 
+>用于格式化和操作数字的JavaScript库。
+
 ---------
 
 
->🦀🦀🦀moment.js  时间转换包
+>🦀🦀🦀moment.js
 
 >🦀🦀🦀[文档地址:http://momentjs.cn/](http://momentjs.cn/)
 
+>一个轻量级的JavaScript日期库，用于解析，验证，操作和格式化日期。
+
 ---------
 
 
->🐠🐠🐠koa2.js  框架
+>🐠🐠🐠koa2.js
 
 >🐠🐠🐠[文档地址:https://koa.bootcss.com/](https://koa.bootcss.com/)
+
+>Koa 是一个新的 web 框架，由 Express 幕后的原班人马打造， 致力于成为 web 应用和 API 开发领域中的一个更小、更富有表现力、更健壮的基石。 通过利用 async 函数，Koa 帮你丢弃回调函数，并有力地增强错误处理。 Koa 并没有捆绑任何中间件， 而是提供了一套优雅的方法，帮助您快速而愉快地编写服务端应用程序。
 
 ---------
 
