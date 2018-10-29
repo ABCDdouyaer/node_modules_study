@@ -1,8 +1,24 @@
-numeral数字转换包
 
-moment.js时间转换包
+>🐝🐝🐝numeral   数字转换包
 
-koa2.js框架
+>🐝🐝🐝[文档地址:http://numeraljs.com/](http://numeraljs.com/)
+
+---------
+
+
+>🦀🦀🦀moment.js  时间转换包
+
+>🦀🦀🦀[文档地址:http://momentjs.cn/](http://momentjs.cn/)
+
+---------
+
+
+>🐠🐠🐠koa2.js  框架
+
+>🐠🐠🐠[文档地址:https://koa.bootcss.com/](https://koa.bootcss.com/)
+
+---------
+
 
 process全球包
 
@@ -35,8 +51,17 @@ commandar node命令行运行
 
 pad 一个好用的字符串左右加padding的包
 
-### inquirer  交互式命令解释器 
-🌿🌿🌿[文档地址](https://github.com/ABCDdouyaer/node_modules_study/tree/master/inquirer_study)🌲🌲🌲
+
+
+
+
+
+>🦋🦋🦋inquirer  交互式命令解释器 
+
+>🦋🦋🦋[文档地址:https://github.com/ABCDdouyaer/node_modules_study/tree/master/inquirer_study](https://github.com/ABCDdouyaer/node_modules_study/tree/master/inquirer_study)
+
+---------
+
 
 
 headless 无界面化谷歌浏览器内核 
