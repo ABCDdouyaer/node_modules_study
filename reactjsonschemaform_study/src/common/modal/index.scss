@@ -1,0 +1,18 @@
+.component_modal{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(33, 33, 33, 0.4);
+    .modal_box{
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 30px;
+        // width: 400px;
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate3d(-50%, -50%, 0);
+    }
+}

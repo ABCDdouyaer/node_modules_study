@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import { Modal, Button } from 'antd';
+import { Modal, Button, message } from 'antd';
+
 class MyAntd extends Component {
     state = {visible: false}
 
     showModal = ()=>{
-        this.setState({visible: true})
+        // this.setState({visible: true})
+        message.warning('This is a normal message',20);
     }
     
     handleOk = (e)=>{

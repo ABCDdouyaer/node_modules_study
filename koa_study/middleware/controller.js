@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-
+let router = require('koa-router')();
 function addMapping(router, mapping) {
     for (var url in mapping) {
         if (url.startsWith('GET ')) {
@@ -39,7 +39,6 @@ function addControllers(router) {
 }
 
 module.exports = function (dir) {
-    let router = require('koa-router')();
     addControllers(router);
     return router.routes();
 };

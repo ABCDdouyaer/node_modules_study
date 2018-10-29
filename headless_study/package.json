@@ -1,15 +1,15 @@
 {
-  "name": "request_study",
+  "name": "headless_study",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "bin": "./bin/gp"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "iconv-lite": "^0.4.24",
-    "request": "^2.88.0"
-  }
+  "license": "ISC"
 }

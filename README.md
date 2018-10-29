@@ -26,3 +26,21 @@ minimist 对node的启动参数进行解析
 qs字符串解析和对象字符串化
 
 react-json-schema-form 对react-router-dom 4.x版本进行配置
+
+request http请求更加简便
+
+chalk 用于打印你所需要的样式的console.log
+
+commandar node命令行运行
+
+pad 一个好用的字符串左右加padding的包
+
+inquirer  交互式命令解释器
+  **提供错误回调**
+  **询问操作者问题**
+  **获取并解析用户输入**
+  **检测用户回答是否合法**
+  **管理多层级的提示**
+
+headless 无界面化谷歌浏览器内核 
+

@@ -12,3 +12,4 @@ request('http://www.google.com', function (error, response, body) {
 });
 ```
 
+#### 流模式

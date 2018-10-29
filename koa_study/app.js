@@ -8,6 +8,7 @@ const app = new Koa();
 const bodyParser = require('koa-bodyparser');
 const controller = require('./middleware/controller.js');
 const koaStatic = require('koa-static');
+const router =  require('koa-router')();
 const path = require('path');
 const template =  require('./middleware/template.js');
 
